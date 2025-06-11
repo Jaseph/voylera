@@ -1,0 +1,1004 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Voylera: Europas Reiseplattform der nächsten Generation | Demnächst!</title>
+
+    <meta name="description" content="Seien Sie unter den Ersten, die Voylera erleben – die Plattform, die das Reisen in Europa neu definiert! Melden Sie sich für unsere Warteliste an, um unsere Community-basierte, mehrsprachige und KI-gestützte Plattform zu entdecken und exklusive Vorteile zu erhalten.">
+
+    <meta property="og:title" content="Voylera: Europas Reiseplattform der nächsten Generation | Demnächst!">
+    <meta property="og:description" content="Seien Sie unter den Ersten, die Voylera erleben – die Plattform, die das Reisen in Europa neu definiert! Melden Sie sich für unsere Warteliste an, um unsere Community-basierte, mehrsprachige und KI-gestützte Plattform zu entdecken.">
+    <meta property="og:image" content="https://voylera.com/logo.webp"> <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Voylera - Start der europäischen Reiseplattform">
+    <meta property="og:url" content="https://de.voylera.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:site_name" content="Voylera">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@jaseph"> <meta name="twitter:title" content="Voylera: Europas Reiseplattform der nächsten Generation | Demnächst!">
+    <meta name="twitter:description" content="Seien Sie unter den Ersten, die Voylera erleben – die Plattform, die das Reisen in Europa neu definiert! Melden Sie sich für unsere Warteliste an, um unsere Community-basierte, mehrsprachige und KI-gestützte Plattform zu entdecken.">
+    <meta name="twitter:image" content="https://voylera.com/logo.webp"> <meta name="twitter:image:alt" content="Voylera - Reisen in Europa wird bald neu definiert">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6366f1">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"> <meta name="theme-color" content="#ffffff">
+
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="alternate" hreflang="x-default" href="https://voylera.com/" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"></noscript>
+
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'); */ /* Font preload ile yüklendiği için bu satır kaldırılabilir veya yorumlanabilir */
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #f1f5f9 100%);
+            position: relative;
+            overflow-x: hidden;
+        }
+        .gradient-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e2e8f0' fill-opacity='0.3'%3E%3Ccircle cx='30' cy='30' r='1.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            animation: float 20s ease-in-out infinite;
+            z-index: -1;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(180deg); }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-8px);
+            }
+            60% {
+                transform: translateY(-4px);
+            }
+        }
+        .animate-bounce-custom-icon {
+            animation: bounce 2s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.2);
+            }
+            70% {
+                box-shadow: 0 0 0 8px rgba(99, 102, 241, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(99, 102, 241, 0);
+            }
+        }
+        .animate-fadeInUp {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+        .animate-pulse-custom {
+            animation: pulse 2s infinite;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(226, 232, 240, 0.6);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px -3px rgba(0, 0, 0, 0.07), 0 2px 8px -2px rgba(0, 0, 0, 0.04);
+        }
+        .card-shadow {
+            box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+        }
+        .feature-card {
+            transition: all 0.3s ease;
+            transform: perspective(1000px) rotateX(0deg);
+        }
+        .feature-card:hover {
+            transform: perspective(1000px) rotateX(2deg) translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            box-shadow: 0 4px 14px 0 rgba(99, 102, 241, 0.25);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            box-shadow: 0 6px 20px 0 rgba(99, 102, 241, 0.35);
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.9);
+            border: 2px solid #e2e8f0;
+            color: #475569;
+            transition: all 0.3s ease;
+        }
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 1);
+            border-color: #cbd5e1;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .icon-gradient-logo {
+             background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+        }
+        .mobile-nav {
+            transform: translateX(-100%);
+            transition: transform 0.3s ease-in-out;
+        }
+        .mobile-nav.active {
+            transform: translateX(0);
+        }
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          html {
+            scroll-behavior: auto !important;
+          }
+          *, *::before, *::after {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+            scroll-behavior: auto !important; /* Erişilebilirlik için scroll-behavior'ı da kapsayalım */
+          }
+          .animate-bounce-custom-icon,
+          .animate-pulse-custom,
+          .gradient-bg::before,
+          .deco-float {
+            animation: none !important;
+          }
+          .animate-fadeInUp {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+          }
+          .feature-card:hover {
+            transform: perspective(1000px) rotateX(0deg) translateY(0px) !important;
+             box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+          }
+           .btn-primary:hover, .btn-secondary:hover {
+            transform: translateY(0) !important;
+          }
+        }
+        @media (max-width: 768px) {
+            .feature-card:hover {
+                transform: none;
+                box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.08);
+            }
+            .text-5xl {
+                font-size: 2.5rem; /* 40px */
+            }
+            .text-7xl {
+                font-size: 3.5rem; /* 56px */
+            }
+        }
+        @media (max-width: 640px) {
+            .text-5xl {
+                font-size: 2rem; /* 32px */
+            }
+            .text-7xl {
+                font-size: 3rem; /* 48px */
+            }
+        }
+    </style>
+
+    <script src="https://cdn.tailwindcss.com" defer></script> <script src="https://code.iconify.design/3/3.1.1/iconify.min.js" async defer></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Voylera",
+      "url": "https://de.voylera.com/",
+      "logo": "https://voylera.com/logo.webp",
+      "description": "Die Community-basierte, mehrsprachige und KI-gestützte Reiseplattform, die die Zukunft des Reisens in Europa neu definiert.",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Kundensupport",
+          "email": "info@voylera.com",  
+          "url": "https://de.voylera.com/#contact"
+        }
+      ],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://de.voylera.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "sameAs": [
+        "https://instagram.com/voylera",
+        "https://facebook.com/voylera",
+        "https://mastodon.world/@voylera",
+        "https://www.youtube.com/@voylera" 
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Voylera",
+      "url": "https://de.voylera.com/",
+      "description": "Voylera: Die Community-basierte, mehrsprachige und KI-gestützte Reiseplattform, die die Zukunft des Reisens in Europa neu definiert. Treten Sie der Warteliste bei und verpassen Sie keine Startvorteile!",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Voylera",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://voylera.com/logo.webp"
+        }
+      },
+      "inLanguage": "de-DE"
+    }
+    </script>
+</head>
+<body class="gradient-bg min-h-screen text-slate-700"> 
+    <nav class="fixed top-0 w-full z-50 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <a href="#" aria-label="Voylera Startseite" class="flex items-center space-x-3">
+                  <img src="logo.svg" alt="Voylera Logo" class="w-10 h-10"> <span class="font-bold text-2xl text-slate-800">Voylera</span>
+                </a>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#main" class="text-slate-600 hover:text-slate-800 transition-all duration-300 font-medium">Startseite</a>
+                    <a href="#features" class="text-slate-600 hover:text-slate-800 transition-all duration-300 font-medium">Funktionen</a>
+                    <a href="#about" class="text-slate-600 hover:text-slate-800 transition-all duration-300 font-medium">Über uns</a>
+                    <a href="#waitlist" class="text-slate-600 hover:text-slate-800 transition-all duration-300 font-medium">Warteliste</a>
+                    <a href="#contact" class="text-slate-600 hover:text-slate-800 transition-all duration-300 font-medium">Kontakt</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="md:hidden text-slate-700 text-2xl" aria-label="Menü öffnen" aria-controls="mobile-nav" aria-expanded="false">
+                    <span class="iconify-icon" data-icon="mdi:menu"></span> </button>
+            </div>
+        </div>
+
+        <div id="mobile-nav" class="mobile-nav md:hidden fixed top-0 left-0 w-full h-full bg-white z-[60]"> 
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-8">
+                    <a href="#" aria-label="Voylera Startseite" class="flex items-center space-x-3"> <img src="logo.svg" alt="Voylera Logo" class="w-9 h-9">
+                        <span class="font-bold text-xl text-slate-800">Voylera</span>
+                    </a>
+
+                    <button id="mobile-close-btn" class="text-slate-700 text-2xl" aria-label="Menü schließen">
+                        <span class="iconify-icon" data-icon="mdi:close"></span>
+                    </button>
+                </div>
+                <div class="space-y-6">
+                    <a href="#main" class="block text-slate-700 text-lg font-medium mobile-nav-link">Startseite</a>
+                    <a href="#features" class="block text-slate-700 text-lg font-medium mobile-nav-link">Funktionen</a>
+                    <a href="#about" class="block text-slate-700 text-lg font-medium mobile-nav-link">Über uns</a>
+                    <a href="#waitlist" class="block text-slate-700 text-lg font-medium mobile-nav-link">Warteliste</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="main" class="min-h-screen flex items-center justify-center px-4 pt-24 pb-12 md:pt-20"> 
+        <div class="max-w-6xl mx-auto text-center">
+            <div class="animate-fadeInUp" style="animation-delay: 0.1s; opacity:0;"> <h1 class="text-5xl md:text-5xl font-black text-slate-800 mb-6 leading-tight">
+                    Die Reisekultur der nächsten Generation
+                </h1>
+                <p class="text-xl md:text-2xl text-slate-600 mb-8 max-w-3xl mx-auto font-light leading-relaxed">
+                    Europas innovativste Community-basierte Reiseplattform.
+                    <strong class="font-semibold text-slate-700">Künstliche Intelligenz</strong>, <strong class="font-semibold text-slate-700">echte Erlebnisse</strong> und <strong class="font-semibold text-slate-700">unbegrenzte Entdeckungsmöglichkeiten</strong>.
+                </p>
+                
+                <div class="glass rounded-2xl p-6 mb-8 max-w-md mx-auto card-shadow animate-fadeInUp" style="animation-delay: 0.3s; opacity:0;">
+                    <div class="text-slate-500 text-sm mb-2">Zeit bis zu unserem Start</div>
+                    <div id="countdown" class="text-2xl font-bold text-slate-800">Wird geladen...</div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fadeInUp" style="animation-delay: 0.5s; opacity:0;">
+                    <button onclick="scrollToWaitlist()" class="btn-primary text-white px-8 py-4 rounded-full font-bold text-lg w-full sm:w-auto">
+                        <span class="iconify-icon mr-2 align-middle" data-icon="mdi:rocket-launch"></span>
+                        Frühzugang erhalten
+                    </button>
+                </div>
+
+                <div class="grid grid-cols-3 gap-4 sm:gap-8 mt-12 max-w-2xl mx-auto animate-fadeInUp" style="animation-delay: 0.7s; opacity:0;">
+                    <div class="text-center">
+                        <div class="text-2xl sm:text-3xl font-bold text-slate-800" id="user-count">0</div>
+                        <div class="text-slate-500 text-xs sm:text-sm">Wartende Nutzer</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl sm:text-3xl font-bold text-slate-800">15+</div>
+                        <div class="text-slate-500 text-xs sm:text-sm">Unterstützte Länder</div> </div>
+                    <div class="text-center">
+                        <div class="text-2xl sm:text-3xl font-bold text-slate-800">10+</div>
+                        <div class="text-slate-500 text-xs sm:text-sm">Sprachoptionen</div> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="deco-float absolute top-20 left-10 text-slate-200 text-4xl sm:text-6xl animate-bounce-custom-icon hidden sm:block" aria-hidden="true">
+            <span class="iconify-icon" data-icon="mdi:map-marker"></span>
+        </div>
+        <div class="deco-float absolute bottom-20 right-10 text-slate-200 text-3xl sm:text-4xl animate-bounce-custom-icon hidden sm:block" style="animation-delay: 1s;" aria-hidden="true">
+            <span class="iconify-icon" data-icon="mdi:compass"></span>
+        </div>
+    </section>
+
+    <section id="features" class="py-16 md:py-20 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12 md:mb-16 animate-fadeInUp" style="opacity:0;">
+                <h2 class="text-4xl md:text-5xl font-bold text-slate-800 mb-6">Warum Voylera?</h2>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto">Voller Funktionen, die Ihr Reiseerlebnis auf die nächste Stufe heben.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card glass rounded-2xl p-8 text-center card-shadow animate-fadeInUp" style="opacity:0;">
+                    <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-6 animate-pulse-custom">
+                        <span class="iconify text-white text-4xl" data-icon="mdi:account-group"></span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4">Community-Kraft</h3>
+                    <p class="text-slate-600 leading-relaxed">Echte Empfehlungen von echten Reisenden. Teilen Sie Ihre Erfahrungen, lassen Sie sich von anderen inspirieren und entdecken Sie lokale Geheimnisse.</p>
+                </div>
+
+                <div class="feature-card glass rounded-2xl p-8 text-center card-shadow animate-fadeInUp" style="animation-delay: 0.2s; opacity:0;">
+                    <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6 animate-pulse-custom">
+                        <span class="iconify text-white text-4xl" data-icon="mdi:lightbulb-on-outline"></span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4">KI-Reiseassistent</h3>
+                    <p class="text-slate-600 leading-relaxed">Personalisierte Routen, intelligente Vorschläge und sofortige Übersetzungshilfe – Ihr Begleiter in jedem Moment Ihrer Reise.</p>
+                </div>
+
+                <div class="feature-card glass rounded-2xl p-8 text-center card-shadow animate-fadeInUp" style="animation-delay: 0.4s; opacity:0;">
+                    <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-6 animate-pulse-custom">
+                        <span class="iconify text-white text-4xl" data-icon="mdi:web"></span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4">Mehrsprachige Plattform</h3>
+                    <p class="text-slate-600 leading-relaxed">Überwinden Sie Sprachbarrieren mit Unterstützung für über 10 europäische Sprachen. Jeder kann Inhalte in seiner eigenen Sprache erstellen und entdecken.</p> </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-12 md:mt-16">
+                <div class="feature-card glass rounded-2xl p-8 text-center card-shadow animate-fadeInUp" style="opacity:0;">
+                    <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-400 rounded-full flex items-center justify-center mx-auto mb-6 animate-pulse-custom">
+                        <span class="iconify text-white text-4xl" data-icon="mdi:map-search"></span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4">Versteckte Orte</h3>
+                    <p class="text-slate-600 leading-relaxed">Verborgene Dörfer, unberührte Strände und authentische lokale Treffpunkte, die nicht auf dem Touristenradar erscheinen. Wir führen Sie zu den unbekannten Schätzen Europas.</p>
+                </div>
+                <div class="glass rounded-xl p-4 sm:p-6 text-center card-shadow animate-fadeInUp" style="animation-delay: 0.6s; opacity:0;">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-yellow-400 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse-custom">
+                        <span class="iconify text-white text-3xl" data-icon="mdi:camera"></span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4">Fotos teilen</h3>
+                    <p class="text-slate-600 leading-relaxed">Teilen Sie Ihre Reiseerinnerungen, die schönsten Aufnahmen und einzigartige Landschaften mit der Community.<br> Jedes Foto eine Entdeckung, jeder Beitrag eine neue Inspirationsquelle!</p>
+                </div>
+                <div class="glass rounded-xl p-4 sm:p-6 text-center card-shadow animate-fadeInUp" style="animation-delay: 0.7s; opacity:0;">
+                    <div class="w-16 h-16 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse-custom">
+                        <span class="iconify text-white text-3xl" data-icon="mdi:star"></span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4">Intelligente Bewertung</h3>
+                    <p class="text-slate-600 leading-relaxed">Ein Community-basiertes, KI-gestütztes und zuverlässiges Bewertungssystem für Hotels, Restaurants und Erlebnisse.<br> Treffen Sie sichere Entscheidungen auf Ihren Reisen mit echten Bewertungen von echten Reisenden!</p>
+                </div>
+                <div class="glass rounded-xl p-4 sm:p-6 text-center card-shadow animate-fadeInUp" style="animation-delay: 0.8s; opacity:0;">
+                    <div class="w-16 h-16 bg-gradient-to-r from-cyan-500 to-indigo-400 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse-custom">
+                        <span class="iconify text-white text-3xl" data-icon="mdi:calendar"></span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4">Veranstaltungskalender</h3>
+                    <p class="text-slate-600 leading-relaxed">Von Stadtfestivals bis zu geheimen Konzerten, von lokalen Märkten bis zu Kunstveranstaltungen –<br> entdecken Sie Europas aktuellste und einzigartigste Events in einem Kalender und verpassen Sie nichts!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 md:py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="glass rounded-3xl p-8 sm:p-12 card-shadow animate-fadeInUp" style="opacity:0;">
+                <div class="text-center mb-10 md:mb-12">
+                    <h2 class="text-4xl font-bold text-slate-800 mb-6">Die Voylera-Geschichte</h2>
+                    <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto rounded-full"></div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-10 md:gap-12 items-center">
+                    <div>
+                        <p class="text-slate-700 text-lg leading-relaxed mb-6">Voylera entstand aus der Vision, das Reiseerlebnis zu demokratisieren und jeden zu einem lokalen Experten zu machen.</p>
+                        <p class="text-slate-600 leading-relaxed mb-8">Wir wollten eine Plattform schaffen, die über die Standardempfehlungen großer Reiseportale hinausgeht und echte Erlebnisse von echten Menschen bietet.</p>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-3">
+                                <span class="iconify-icon text-green-500 text-xl flex-shrink-0" data-icon="mdi:check-circle"></span>
+                                <span class="text-slate-700">Community-basierte Inhaltserstellung</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="iconify-icon text-green-500 text-xl flex-shrink-0" data-icon="mdi:check-circle"></span>
+                                <span class="text-slate-700">KI-gestützte Personalisierung</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="iconify-icon text-green-500 text-xl flex-shrink-0" data-icon="mdi:check-circle"></span>
+                                <span class="text-slate-700">Mehrsprachige globale Reichweite</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="iconify-icon text-green-500 text-xl flex-shrink-0" data-icon="mdi:check-circle"></span>
+                                <span class="text-slate-700">Fokus auf nachhaltigen Tourismus</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative mt-8 md:mt-0">
+                        <div class="glass rounded-2xl p-8 text-center card-shadow">
+                            <div class="text-4xl mb-4" aria-hidden="true">🚀</div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-4">Unsere Mission</h3>
+                            <p class="text-slate-600">Reisen bedeutungsvoller, nachhaltiger und Community-orientierter zu gestalten. Jeden Reisenden zu einem Geschichtenerzähler und jede Reise zu einem Entdeckungsabenteuer zu machen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="waitlist" class="py-16 md:py-20 px-4">
+    <div class="max-w-2xl mx-auto text-center">
+        <div class="glass rounded-3xl p-8 sm:p-12 card-shadow animate-fadeInUp" style="opacity:0;">
+            <div class="mb-8">
+                <h2 class="text-4xl font-bold text-slate-800 mb-4">Sei ein Pionier!</h2>
+                <p class="text-slate-600 text-lg">
+                    Möchtest du zu den ersten Nutzern von Voylera gehören und die Zukunft der Plattform mitgestalten?
+                    Mit einer kurzen E-Mail kannst du dem Team beitreten!
+                </p>
+            </div>
+
+            <div class="bg-white/80 border border-slate-200 rounded-2xl p-6 max-w-lg mx-auto shadow mb-8">
+                <div class="text-left sm:text-center text-slate-700 mb-3 text-base">
+                    <strong>Zur Anmeldung:</strong><br>
+                    Sende eine E-Mail mit folgenden Informationen an <span class="font-semibold">info@voylera.com</span>:
+                </div>
+                <ul class="text-left sm:text-center space-y-2 text-slate-600 text-sm pl-4 sm:pl-0">
+                    <li><strong>• Ihr Vor- und Nachname</strong></li>
+                    <li><strong>• In welchem Land leben Sie?</strong></li>
+                    <li><strong>• Welche Sprachen sprechen Sie?</strong></li>
+                    <li><strong>• Erzählen Sie uns kurz etwas über sich (optional)</strong></li>
+                </ul>
+            </div>
+            
+            <div class="bg-indigo-50 rounded-xl px-4 py-3 text-slate-700 text-sm max-w-md mx-auto mb-3">
+                <strong>Ihr Vorteil:</strong> Als einer der Ersten werden Sie in die Redaktionsliste aufgenommen und gehören zu den Pionieren unserer Content-Creator-Community.
+            </div>
+
+            <div class="mt-4 text-slate-500 text-xs sm:text-sm">
+                Sie können uns auch über unsere Social-Media-Kanäle oder per <span class="underline">WhatsApp: <a href="https://wa.me/4917663057728" class="text-indigo-600" target="_blank">+49 176 63057728</a></span> erreichen.
+            </div>
+
+              <div id="form-message" class="mt-4 text-sm"></div>
+
+                <div class="mt-8 text-center">
+                    <div class="text-slate-500 text-sm mb-4">Seien Sie unter den Ersten und verpassen Sie keine exklusiven Vorteile!</div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-3 text-sm">
+                        <div class="flex items-center space-x-2">
+                            <span class="iconify-icon text-indigo-500 text-lg" data-icon="mdi:gift"></span>
+                            <span class="text-slate-600">Sichern Sie sich Ihren Platz auf der Redaktionsliste</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="iconify-icon text-indigo-500 text-lg" data-icon="mdi:crown"></span>
+                            <span class="text-slate-600">Ein exklusiver Bereich nur für Reisende</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="iconify-icon text-indigo-500 text-lg" data-icon="mdi:calendar-star"></span>
+                            <span class="text-slate-600">Direkter Kontakt zur Geschäftsleitung</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="iconify-icon text-indigo-500 text-lg" data-icon="mdi:bell-ring"></span> <span class="text-slate-600">Exklusive Veranstaltungen</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="iconify-icon text-indigo-500 text-lg" data-icon="mdi:cash-multiple"></span> <span class="text-slate-600">Verdienen Sie Geld mit Ihren Beiträgen</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="iconify-icon text-indigo-500 text-lg" data-icon="mdi:airplane-takeoff"></span> <span class="text-slate-600">Finanzieren Sie Ihre Reisen mit Voylera</span>
+                        </div>
+                        <div class="flex items-center space-x-2 col-span-1 sm:col-span-2 justify-center"> <span class="iconify-icon text-indigo-500 text-lg" data-icon="mdi:dots-horizontal-circle"></span>
+                            <span class="text-slate-600">Und vieles mehr erwartet Sie!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+              
+    </section>
+
+    <section id="press-kit" class="py-16 md:py-20 px-4 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-3xl mx-auto glass rounded-3xl p-8 sm:p-12 card-shadow animate-fadeInUp" style="opacity:0;">
+            <h2 class="text-3xl font-bold text-slate-800 mb-4 text-center">Voylera Pressemappe</h2>
+            <div class="text-slate-600 text-lg leading-relaxed mb-6 text-center">
+                <strong>Voylera</strong> – ist eine Community-basierte, mehrsprachige und KI-gestützte Reiseplattform der nächsten Generation, die die Zukunft des Reisens in Europa neu definiert.
+                <br><br>
+                Unsere aktuelle <b>Pressemappe</b>, <b>Logos</b>, <b>Plattform-Visuals</b> und <b>Kontaktinformationen</b> für Medien und Kooperationen finden Sie unten!
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
+         
+                <a href="mailto:press@voylera.com?subject=Voylera%20Pressekontakt" class="btn-secondary px-8 py-4 rounded-full font-bold flex items-center justify-center">
+                    <span class="iconify-icon mr-2 align-middle" data-icon="mdi:email"></span>
+                    Pressekontakt
+                </a>
+            </div>
+            <div id="press-visuals" class="mt-8">
+                <div class="text-center text-slate-500 text-sm mb-4">Hochauflösende Logos und Plattform-Visuals</div>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <img src="press/logo-dark.png" alt="Voylera Logo Dunkler Hintergrund"
+                        class="max-w-[8rem] h-auto rounded-xl shadow object-contain"
+                        style="max-height: 128px;" loading="lazy">
+                    <img src="press/logo-light.png" alt="Voylera Logo Heller Hintergrund"
+                        class="max-w-[8rem] h-auto rounded-xl shadow object-contain"
+                        style="max-height: 128px;" loading="lazy">
+                    <img src="press/logo.png" alt="Voylera Plattform Logo-Ansicht" class="max-w-[14rem] h-auto rounded-xl shadow object-contain"
+                        style="max-height: 180px;" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="career" class="py-16 md:py-20 px-4 bg-gradient-to-b from-white to-slate-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="glass rounded-3xl p-8 sm:p-12 card-shadow animate-fadeInUp" style="opacity:0;">
+                <div class="text-center mb-10 md:mb-12">
+                    <h2 class="text-4xl font-bold text-slate-800 mb-6">Karriere & Offene Stellen</h2>
+                    <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto rounded-full"></div>
+                    <p class="text-lg text-slate-600 mt-6 max-w-2xl mx-auto">
+                        Wir suchen neue Teammitglieder, die Europas innovativste Reise-Community verstärken!
+                        Wenn digitale Freiheit, Reiseleidenschaft und Gemeinschaftsgeist auch für dich wichtig sind, freuen wir uns auf dich.
+                    </p>
+                </div>
+                <div class="mb-12">
+                    <h3 class="text-2xl font-semibold text-indigo-600 mb-6">Offene Stellen</h3>
+                    <ul class="space-y-6">
+                        <li class="glass rounded-xl p-6 flex flex-col sm:flex-row sm:items-center justify-between card-shadow">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800">Full-Stack Webentwickler (m/w/d)</h4>
+                                <p class="text-slate-600">Erfahren in PHP (Laravel/WordPress), MySQL, Tailwind, REST API und mehrsprachigen Projekten.</p>
+                            </div>
+                            <a href="mailto:career@voylera.com?subject=Full-Stack Webentwickler Bewerbung"
+                            class="mt-4 sm:mt-0 btn-primary px-6 py-2 rounded-full font-semibold text-white transition hover:scale-105 text-center">Bewerben</a>
+                        </li>
+                        <li class="glass rounded-xl p-6 flex flex-col sm:flex-row sm:items-center justify-between card-shadow">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800">SEO & Content Editor (m/w/d)</h4>
+                                <p class="text-slate-600">Erfahren in mehrsprachiger Content-Erstellung, SEO-Optimierung und Community-Management.</p>
+                            </div>
+                            <a href="mailto:career@voylera.com?subject=SEO Content Editor Bewerbung"
+                            class="mt-4 sm:mt-0 btn-primary px-6 py-2 rounded-full font-semibold text-white transition hover:scale-105 text-center">Bewerben</a>
+                        </li>
+                        <li class="glass rounded-xl p-6 flex flex-col sm:flex-row sm:items-center justify-between card-shadow">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800">Social Media Manager (m/w/d)</h4>
+                                <p class="text-slate-600">Starke Markenkommunikation auf Instagram, YouTube, Mastodon, Facebook und Plattformen der nächsten Generation.</p>
+                            </div>
+                            <a href="mailto:career@voylera.com?subject=Social Media Manager Bewerbung"
+                            class="mt-4 sm:mt-0 btn-primary px-6 py-2 rounded-full font-semibold text-white transition hover:scale-105 text-center">Bewerben</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-10">
+                    <h3 class="text-xl font-semibold text-slate-800 mb-3">Initiativbewerbung</h3>
+                    <p class="text-slate-600 mb-6">
+                        Findest du dich in diesen Bereichen nicht wieder? Wenn du trotzdem bei uns arbeiten möchtest, teile deinen Lebenslauf und deine Geschichte mit uns.
+                        Wir freuen uns immer, neue Talente und leidenschaftliche Reisende in unserem Team willkommen zu heißen!
+                    </p>
+                    <a href="mailto:career@voylera.com?subject=Initiativbewerbung"
+                    class="btn-secondary px-8 py-3 rounded-full font-semibold text-slate-800 transition hover:scale-105">Initiativ bewerben</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 md:py-20 px-4 bg-gradient-to-b from-white to-slate-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="glass rounded-3xl p-8 sm:p-12 card-shadow animate-fadeInUp" style="opacity:0;">
+                <div class="text-center mb-10 md:mb-12">
+                    <h2 class="text-4xl font-bold text-slate-800 mb-6">Kontakt</h2>
+                    <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto rounded-full"></div>
+                    <p class="text-lg text-slate-600 mt-6 max-w-2xl mx-auto">
+                        Für jegliche Kooperationen, Presseanfragen und allgemeine Kommunikation erreichen Sie uns direkt.<br>
+                        <span class="text-slate-500 text-base">Spam-Nachrichten werden nicht beantwortet.</span>
+                    </p>
+                </div>
+                <div class="flex flex-col md:flex-row justify-center gap-8 items-start md:items-center">
+                    <div class="space-y-5 w-full md:w-auto">
+                        <div class="flex items-center space-x-3">
+                            <span class="iconify-icon text-indigo-500 text-xl" data-icon="mdi:email-outline"></span>
+                            <a href="mailto:info@voylera.com" class="text-slate-700 font-semibold hover:underline">info@voylera.com</a>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="iconify-icon text-purple-500 text-xl" data-icon="mdi:email-outline"></span>
+                            <a href="mailto:press@voylera.com" class="text-slate-700 font-semibold hover:underline">press@voylera.com</a>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="iconify-icon text-green-500 text-xl" data-icon="mdi:whatsapp"></span>
+                            <a href="https://wa.me/4917663057728" target="_blank" rel="noopener" class="text-slate-700 font-semibold hover:underline">+49 176 63057728</a>
+                        </div>
+                    </div>
+                    <div class="space-y-5 w-full md:w-auto">
+                        <div class="flex items-center space-x-3">
+                            <span class="iconify-icon text-pink-500 text-xl" data-icon="mdi:instagram"></span>
+                            <a href="https://instagram.com/voylera" target="_blank" rel="noopener" class="text-slate-700 hover:underline">Instagram</a>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="iconify-icon text-red-500 text-xl" data-icon="mdi:youtube"></span>
+                            <a href="[VOYLERA_YOUTUBE_KANAL_URL]" target="_blank" rel="noopener" class="text-slate-700 hover:underline">YouTube</a> </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="iconify-icon text-indigo-700 text-xl" data-icon="mdi:mastodon"></span>
+                            <a href="https://mastodon.world/@voylera" target="_blank" rel="noopener" class="text-slate-700 hover:underline">Mastodon</a>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <span class="iconify-icon text-blue-600 text-xl" data-icon="mdi:facebook"></span>
+                            <a href="https://facebook.com/voylera" target="_blank" rel="noopener" class="text-slate-700 hover:underline">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10 text-center text-slate-500 text-sm">
+                    <span>Mit Sitz in Europa bieten wir unsere Dienstleistungen weltweit remote an.<br>
+                    Für die Kontaktaufnahme können Sie <strong>info@voylera.com</strong>, <strong>press@voylera.com</strong>, WhatsApp oder unsere Social-Media-Konten nutzen.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="help-center" class="py-16 md:py-20 px-4 bg-gradient-to-b from-slate-50 to-white">
+        <div class="max-w-4xl mx-auto">
+            <div class="glass rounded-3xl p-8 sm:p-12 card-shadow animate-fadeInUp" style="opacity:0;">
+                <div class="text-center mb-10 md:mb-12">
+                    <h2 class="text-4xl font-bold text-slate-800 mb-6">Hilfe-Center</h2>
+                    <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto rounded-full"></div>
+                    <p class="text-lg text-slate-600 mt-6 max-w-2xl mx-auto">
+                        Haben Sie Fragen? Unser Team und unsere Community helfen Ihnen gerne weiter.<br>
+                        In den folgenden Abschnitten finden Sie schnell die benötigte Unterstützung.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="glass rounded-2xl p-6 flex flex-col gap-4 card-shadow">
+                        <h3 class="text-xl font-bold text-slate-800 mb-2 flex items-center gap-2">
+                            <span class="iconify-icon text-indigo-500" data-icon="mdi:comment-question-outline"></span>
+                            Häufig gestellte Fragen (FAQ)
+                        </h3>
+                        <p class="text-slate-600 text-base mb-2">Hier finden Sie Antworten auf die am häufigsten gestellten Fragen zur Plattform, Mitgliedschaft, Inhaltserstellung und mehr.</p>
+                         </div>
+                    <div class="glass rounded-2xl p-6 flex flex-col gap-4 card-shadow">
+                        <h3 class="text-xl font-bold text-slate-800 mb-2 flex items-center gap-2">
+                            <span class="iconify-icon text-purple-500" data-icon="mdi:book-open-variant"></span>
+                            Anleitungen für den Einstieg
+                        </h3>
+                        <p class="text-slate-600 text-base mb-2">Entdecken Sie unsere Anleitungen zur schrittweisen Nutzung der Plattform, zum Teilen von Inhalten, zu Redaktionsbewerbungen und mehr.</p>
+                        </div>
+                </div>
+                <div class="mt-12 text-center">
+                    <p class="text-slate-600 text-base mb-4">
+                        <span class="iconify-icon text-indigo-500" data-icon="mdi:account-group"></span>
+                        Möchten Sie direkt mit unserer Support-Community und unseren Moderatoren in Kontakt treten?
+                    </p>
+                    <a href="mailto:info@voylera.com" class="btn-primary text-white px-8 py-4 rounded-full font-bold text-lg inline-block mx-auto">
+                        <span class="iconify-icon mr-2 align-middle" data-icon="mdi:email-send-outline"></span>
+                        Kontaktieren Sie uns
+                    </a>
+                    <p class="text-slate-500 text-sm mt-6">
+                        Demnächst: Mit Live-Chat, Community-Forum und Peer-to-Peer-Support-Bereichen<br>
+                        wird das Hilfe-Center noch weiter wachsen. Bleiben Sie auf dem Laufenden!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="privacy-policy" class="py-16 md:py-20 px-4 bg-white">
+    <div class="max-w-3xl mx-auto">
+        <div class="glass rounded-3xl p-8 sm:p-12 card-shadow animate-fadeInUp">
+            <div class="text-center mb-10 md:mb-12">
+                <h1 class="text-4xl font-bold text-slate-800 mb-6">Datenschutzrichtlinie</h1>
+                <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto rounded-full"></div>
+                <p class="text-lg text-slate-600 mt-6 max-w-2xl mx-auto">
+                    Bei Voylera nehmen wir den Schutz Ihrer persönlichen Daten ernst. Wenn Sie sich für unsere Warteliste anmelden, werden Ihre Kontaktinformationen nur für die unten genannten Zwecke verwendet. Ihre Privatsphäre hat für uns stets Priorität.
+                </p>
+            </div>
+            <div class="text-slate-700 text-base space-y-6">
+                <h2 class="text-xl font-semibold mb-2">1. Erhobene Daten</h2>
+                <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li><strong>Ihre E-Mail-Adresse:</strong> Wird ausschließlich erhoben, um mit Ihnen zu kommunizieren und Ihnen Updates zu senden.</li>
+                    <li><strong>Landesinformation:</strong> Wird verwendet, um die geografische Verteilung der Plattform zu analysieren und Ihnen passendere Inhalte anbieten zu können.</li>
+                </ul>
+
+                <h2 class="text-xl font-semibold mb-2">2. Verwendung der Daten</h2>
+                <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li>Information per E-Mail über den Start und wichtige Plattform-Updates.</li>
+                    <li>Möglichkeiten zum frühen Zugriff und Einladungen zur Community.</li>
+                    <li>Anfragen zu Feedback und Maßnahmen zur Verbesserung der Benutzererfahrung.</li>
+                </ul>
+
+                <h2 class="text-xl font-semibold mb-2">3. Weitergabe an Dritte</h2>
+                <p>
+                    Ihre personenbezogenen Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben, verkauft oder vermietet. Außer bei zwingenden gesetzlichen Verpflichtungen werden Ihre Daten vertraulich behandelt.
+                </p>
+
+                <h2 class="text-xl font-semibold mb-2">4. Datenspeicherung und -sicherheit</h2>
+                <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li>Ihre Daten werden auf sicheren und verschlüsselten Systemen gespeichert.</li>
+                    <li>Es werden technische und administrative Maßnahmen ergriffen, um unbefugten Zugriff zu verhindern.</li>
+                </ul>
+
+                <h2 class="text-xl font-semibold mb-2">5. Ihre Rechte</h2>
+                <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li>Sie können jederzeit die Löschung oder Korrektur Ihrer Daten verlangen, indem Sie uns unter <a href="mailto:info@voylera.com" class="text-indigo-600 hover:underline">info@voylera.com</a> mit der E-Mail-Adresse kontaktieren, mit der Sie sich registriert haben.</li>
+                    <li>Sie haben jederzeit das Recht, sich von der Warteliste abzumelden. Jede Informations-E-Mail enthält einen Abmeldelink.</li>
+                </ul>
+
+                <h2 class="text-xl font-semibold mb-2">6. Cookies</h2>
+                <p>
+                    Voylera kann auf seiner Website Cookies in minimalem Umfang verwenden, um die Benutzererfahrung zu verbessern. Diese Cookies werden für Website-Traffic, Nutzungsstatistiken und Spracheinstellungen verwendet und stellen keine personenbezogenen Daten dar.
+                </p>
+
+                <h2 class="text-xl font-semibold mb-2">7. Aktualisierungen</h2>
+                <p>
+                    Sollten Änderungen an unserer Datenschutzrichtlinie vorgenommen werden, werden aktuelle Informationen auf dieser Seite veröffentlicht. Letzte Aktualisierung: Mai 2025.
+                </p>
+
+                <div class="mt-10 text-center">
+                    <iconify-icon icon="mdi:shield-account" class="text-3xl text-indigo-500 mb-2"></iconify-icon>
+                    <p class="text-slate-600">
+                        Für alle Fragen und Anliegen erreichen Sie uns unter <a href="mailto:info@voylera.com" class="text-indigo-600 hover:underline">info@voylera.com</a> oder <a href="mailto:press@voylera.com" class="text-indigo-600 hover:underline">press@voylera.com</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="py-12 md:py-16 px-4 border-t border-slate-200 bg-white"> 
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8 text-center md:text-left">
+                <div>
+                    <a href="#" aria-label="Voylera Startseite" class="inline-flex items-center space-x-3 mb-4 justify-center md:justify-start">
+                         <img src="logo.svg" alt="Voylera Logo" class="w-9 h-9">
+                        <span class="font-bold text-xl text-slate-800">Voylera</span>
+                    </a>
+                    <p class="text-slate-500 text-sm">Europas Reise-Community der nächsten Generation.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-700 mb-4">Plattform</h4>
+                    <ul class="space-y-2 text-slate-500 text-sm">
+                        <li><a href="#features" class="hover:text-slate-700 transition">Funktionen</a></li>
+                        <li><a href="#about" class="hover:text-slate-700 transition">Über uns</a></li>
+                        <li><a href="#help-center" class="hover:text-slate-700 transition">Hilfe-Center</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-700 mb-4">Folgen Sie uns</h4>
+                    <ul class="space-y-2 text-slate-500 text-sm">
+                        <li><a href="https://instagram.com/voylera" target="_blank" rel="noopener" class="hover:text-slate-700 transition flex items-center space-x-2 justify-center md:justify-start">
+                            <span class="iconify-icon text-lg" data-icon="mdi:instagram"></span><span>Instagram</span></a></li>
+                        <li><a href="https://facebook.com/voylera" target="_blank" rel="noopener" class="hover:text-slate-700 transition flex items-center space-x-2 justify-center md:justify-start">
+                            <span class="iconify-icon text-lg" data-icon="mdi:facebook"></span><span>Facebook</span></a></li>
+                        <li><a href="https://mastodon.world/@voylera" target="_blank" rel="noopener" class="hover:text-slate-700 transition flex items-center space-x-2 justify-center md:justify-start">
+                            <span class="iconify-icon text-lg" data-icon="mdi:mastodon"></span><span>Mastodon</span></a></li>
+                        <li><a href="https://www.youtube.com/@voylera" target="_blank" rel="noopener" class="hover:text-slate-700 transition flex items-center space-x-2 justify-center md:justify-start"> <span class="iconify-icon text-lg" data-icon="mdi:youtube"></span><span>YouTube</span></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-700 mb-4">Rechtliches & Sonstiges</h4> <ul class="space-y-2 text-slate-500 text-sm">
+                        <li><a href="#contact" class="hover:text-slate-700 transition">Kontakt</a></li>
+                        <li><a href="#press-kit" class="hover:text-slate-700 transition">Pressemappe</a></li>
+                        <li><a href="#career" class="hover:text-slate-700 transition">Karriere</a></li>
+                        <li><a href="#privacy-policy"  class="hover:text-slate-700 transition">Datenschutzrichtlinie</a></li> 
+                </div>
+            </div>
+            <div class="border-t border-slate-200 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <div class="text-slate-500 text-sm mb-4 md:mb-0">
+                    © <span id="currentYear">2025</span> Voylera.com Alle Rechte vorbehalten.
+                </div>
+                <div class="text-slate-500 text-sm">
+                    </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const currentYearElement = document.getElementById('currentYear');
+            if (currentYearElement) {
+                currentYearElement.textContent = new Date().getFullYear();
+            }
+
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileCloseBtn = document.getElementById('mobile-close-btn');
+            const mobileNav = document.getElementById('mobile-nav');
+            
+            if (mobileMenuBtn && mobileNav && mobileCloseBtn) {
+                const mobileNavLinks = mobileNav.querySelectorAll('.mobile-nav-link');
+                mobileMenuBtn.addEventListener('click', () => {
+                    mobileNav.classList.add('active');
+                    mobileMenuBtn.setAttribute('aria-expanded', 'true');
+                });
+                mobileCloseBtn.addEventListener('click', () => {
+                    mobileNav.classList.remove('active');
+                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                });
+                mobileNavLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileNav.classList.remove('active');
+                        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                    });
+                });
+            }
+
+            const countdownElement = document.getElementById('countdown');
+            let countdownInterval; 
+            function updateCountdown() {
+                if (!countdownElement) return;
+                const launchDate = new Date('2025-08-01T00:00:00Z').getTime(); 
+                const now = new Date().getTime();
+                const distance = launchDate - now;
+
+                if (distance < 0) {
+                    countdownElement.innerHTML = "🚀 START ERFOLGT!";
+                    if (countdownInterval) clearInterval(countdownInterval);
+                    return;
+                }
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                countdownElement.innerHTML = `${days}T ${hours}Std ${minutes}Min ${seconds}Sek`; // T=Tag, Std=Stunden, Min=Minuten, Sek=Sekunden
+            }
+            if (countdownElement) {
+                updateCountdown(); 
+                countdownInterval = setInterval(updateCountdown, 1000);
+            }
+
+            const counterElement = document.getElementById('user-count');
+            function animateCounter() {
+                if (!counterElement) return;
+                const target = 1247; 
+                let current = 0;
+                const increment = Math.max(1, Math.ceil(target / 100)); 
+                const duration = 20; 
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        current = target;
+                        clearInterval(timer);
+                    }
+                    counterElement.textContent = Math.floor(current).toLocaleString('de-DE'); // German locale for number formatting
+                }, duration);
+            }
+            if (counterElement) {
+                 animateCounter();
+            }
+
+            const waitlistForm = document.getElementById('waitlistForm');
+            if (waitlistForm) {
+                waitlistForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const emailInput = document.getElementById('email');
+                    const countryInput = document.getElementById('country');
+                    const privacyConsentCheckbox = document.getElementById('privacy-consent');
+                    const formMessage = document.getElementById('form-message');
+                    const submitButton = e.target.querySelector('button[type="submit"]');
+                    const originalButtonHTML = submitButton.innerHTML;
+
+                    if (!emailInput.value || !emailInput.checkValidity()) {
+                        formMessage.textContent = 'Bitte geben Sie eine gültige E-Mail-Adresse ein.';
+                        formMessage.className = 'mt-4 text-sm text-red-600';
+                        emailInput.focus();
+                        return;
+                    }
+                    if (!privacyConsentCheckbox.checked) {
+                        formMessage.textContent = 'Bitte akzeptieren Sie die Datenschutzrichtlinie.';
+                        formMessage.className = 'mt-4 text-sm text-red-600';
+                        privacyConsentCheckbox.focus();
+                        return;
+                    }
+                    
+                    submitButton.innerHTML = '<span class="iconify-icon mr-2 animate-spin" data-icon="mdi:loading"></span>Wird gespeichert...';
+                    submitButton.disabled = true;
+                    formMessage.textContent = '';
+                    
+                    setTimeout(() => {
+                        submitButton.innerHTML = '<span class="iconify-icon mr-2" data-icon="mdi:check"></span>Erfolgreich gespeichert!';
+                        submitButton.classList.remove('btn-primary');
+                        submitButton.classList.add('bg-green-500', 'hover:bg-green-600', 'text-white', 'border-transparent');
+                        formMessage.innerHTML = `<span class="text-green-600"><span class="iconify-icon mr-1 align-middle" data-icon="mdi:party-popper"></span>Willkommen! Vergiss nicht, deine E-Mails auf Updates zum Start zu überprüfen! 🎉</span>`;
+                        formMessage.className = 'mt-4 text-sm';
+                        emailInput.value = '';
+                        if(countryInput) countryInput.selectedIndex = 0;
+                        privacyConsentCheckbox.checked = false;
+                    }, 1500);
+                });
+            }
+
+            const observerOptions = {
+                threshold: 0.1, 
+                rootMargin: '0px 0px -50px 0px' 
+            };
+            const intersectionObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        observer.unobserve(entry.target); 
+                    }
+                });
+            }, observerOptions);
+            document.querySelectorAll('.animate-fadeInUp').forEach(el => {
+                el.style.opacity = '0'; 
+                intersectionObserver.observe(el);
+            });
+
+            const floatingElements = document.querySelectorAll('.deco-float');
+            if (floatingElements.length > 0 && window.matchMedia("(pointer: fine)").matches) {
+                document.addEventListener('mousemove', (e) => {
+                    const mouseX = e.clientX / window.innerWidth;
+                    const mouseY = e.clientY / window.innerHeight;
+                    floatingElements.forEach((element, index) => {
+                        const intensity = (index % 2 === 0) ? 15 : 25; 
+                        const offsetX = (mouseX - 0.5) * intensity;
+                        const offsetY = (mouseY - 0.5) * intensity;
+                        element.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
+                    });
+                });
+            }
+            
+            let konamiCode = [];
+            const konamiSequence = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+            document.addEventListener('keydown', (e) => {
+                konamiCode.push(e.key.toLowerCase());
+                if (konamiCode.length > konamiSequence.length) {
+                    konamiCode.shift();
+                }
+                if (konamiCode.join(',') === konamiSequence.join(',')) {
+                    document.body.style.transition = 'transform 0.5s ease-in-out';
+                    document.body.style.transform = 'scale(1.03) rotate(1deg)';
+                    setTimeout(() => {
+                        document.body.style.transform = 'scale(1) rotate(0deg)';
+                        alert('🎉 Du hast die geheimen Funktionen von Voylera entdeckt! In der Beta-Version warten besondere Überraschungen auf dich!');
+                    }, 600);
+                    konamiCode = []; 
+                }
+            });
+        });
+
+        function scrollToWaitlist() {
+            document.getElementById('waitlist').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
